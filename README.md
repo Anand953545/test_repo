@@ -38,6 +38,7 @@ To compile the source files and link object files to libraries in SDK/common lib
 5.	Concurrent WWAN and GNSS operations are not supported on MDM9205 devices, an arbitrator is designed to arbitrate concurrencies between WWAN and GNSS operations. NV#74188 is used to set the initial configuration of app priority.
 -	Byte1: version = 1
 -	Byte2: marb_app_priority = 0 (0 – GNSS, 1 - WWAN)
+![GNSS NVRAM Parameter Setup](https://user-images.githubusercontent.com/104608589/201330586-5d214c38-c567-4c64-85b6-134e93092c0f.png)
 
 
 
