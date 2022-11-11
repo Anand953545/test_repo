@@ -39,6 +39,8 @@ To compile the source files and link object files to libraries in SDK/common lib
 -	Byte1: version = 1
 -	Byte2: marb_app_priority = 0 (0 – GNSS, 1 - WWAN)
 ![GNSS NVRAM Parameter Setup](https://user-images.githubusercontent.com/104608589/201330586-5d214c38-c567-4c64-85b6-134e93092c0f.png)
+6.	Ensure to copy dss.conf in /location/dss.conf folder. This configuration file is used to indicate the WWAN data connection parameters for downloading the GNSS assistance service, XTRA assistance data and NTP download
+7.	Ensure to copy location.conf in /location/location.conf folder. The primary configuration file /location/location.conf contains all the essential location configuration items
 
 
 
