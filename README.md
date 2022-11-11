@@ -43,7 +43,8 @@ To compile the source files and link object files to libraries in SDK/common lib
 7.	Ensure to copy location.conf in /location/location.conf folder. The primary configuration file /location/location.conf contains all the essential location configuration items
 ![Adding GNSS Config Files to EFS](https://user-images.githubusercontent.com/104608589/201331259-7727e15b-d92c-4921-8931-8d9f5599752c.png)
 8.	Create a folder named /firmware/image in AFS (Apps EFS) and copy the following files cmnlib.mbn and keymasterapp32.mbn into the folder for trust zone images. It will help in converting and storing psk files in secure location.
-
+![Adding Trust Zone library files in AFS](https://user-images.githubusercontent.com/104608589/201331729-508e7df3-0cca-44f7-91e9-ddf34eefead4.png)
+9.	Push “gtp_ca_list” and “xtra_ca_list” to “/location/security/cacerts/” directory. 
 
 ### Sideload the Application
 
